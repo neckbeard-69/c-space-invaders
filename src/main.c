@@ -11,14 +11,14 @@
 int main() {
     InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "space invaders");
     SetWindowPosition(MID_X, MID_Y);
-	SetTargetFps(FPS);
+    SetTargetFps(FPS);
 
     while (!WindowShouldClose()) {
-		BeginDrawing();
-		ClearBackground(BLACK);
-		EndDrawing();
+        BeginDrawing();
+        ClearBackground(BLACK);
+        EndDrawing();
     }
 
-	CloseWindow();
+    CloseWindow();
     return 0;
 }
